@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html.body{
+            width:100%;
+            height:100%;
+            margin:0px;
+            padding:0px;
+            overflow-x:hidden;
+
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+        
+        }
+
+        .box {
+
+            border: 2px solid black;
+            width: 390px;
+            height: 250px;
+            margin: 5px;
+            padding: 8px;
+            font-size: small;
+            position: relative;
+            margin: auto auto;
+            bottom: 450px;
+            background-color: white;
+            border-radius: 18px;
+            
+        }
+        .box .but {
+            text-align:center;
+            position:relative;
+            top:65px;
+            
+
+        }
+        .box .but button {
+            padding:5px;
+            border-radius:5px;
+            color:rgb(14, 150, 234);
+            background-color:rgb(216, 236, 253);
+            
+        }
+        .box .but button:hover {
+            background-color:rgb(89, 202, 89);
+            cursor:pointer;
+        }
+        nav{
+            position:relative;
+            bottom:1050px;
+        }
+
+        nav ol {
+
+            display: flex;
+            list-style: none;
+            margin:5px;
+            padding:50px;
+        }
+        nav ol li{
+            margin:20px;
+            font-size: larger;
+            color:black;
+        }
+        nav ol li a {
+            color:red;
+        }
+
+        div label {
+            position: relative;
+            top: 12px;
+        }
+
+      
+        label{
+            font-size: x-large;
+            padding:8px;
+            margin:10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="all">
+        <img src="front.jpg" width="100%" height="735px">
+    </div>
+
+    <div class="box">
+        <h1 style=" text-align:center">LOGIN</h1>
+        <label for="username">Username<label>
+        <textarea id="username" rows="2" cols="28" placeholder="__Username__"></textarea>
+        <label for="password">password</label>
+
+        <textarea id="username" rows="2" cols="28" placeholder="__password__"></textarea>
+        <div class="but">
+        <button> <a href="allprofile.html">submit</button></a>
+        
+        </div>
+        </div>
+        <nav>
+            <ol>
+                <li>Home</li>
+                <li>Connect</li>
+                <li>sign up</li>
+                <li> <a href="allprofile.html">Guest</li> </a>
+            </ol>
+        </nav>
+            
+        </body>
+        </html>
